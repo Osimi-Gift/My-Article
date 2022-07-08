@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style2.css">
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+</head>
+<body>
+    <form action="" class="form">
+        <div><input type="text" class="input" placeholder="Your full name"></div>
+        <div><input type="email" class="input" placeholder="Email"></div>
+        <div><textarea name="msg" placeholder="leave a message" id="text" ></textarea></div>
+        <div><input type="checkbox"><label><b>Tick if you read the article</b></label></div>
+        <div><input type="checkbox"><label><b>Tick if you are interested</b></label></div>
+        <h3><b>Whats your area of expertise</b></h3>
+        <div><input type="checkbox"><label><b>Front-end development</b></label></div>
+        <div><input type="checkbox"><label><b>Back-end development</b></label></div>
+        <div><input type="checkbox"><label><b>Full-stack</b></label></div>
+        <div><input type="checkbox"><label><b>Product Designer</b></label></div>
+        <div><button class="submit">submit</button></div>
+        <h3 class="message"></h3>
+       </form>
+       <script>
+        ScrollReveal({
+          reset: true,
+          distance: "60px",
+          duration: 2500,
+          // delay: 400
+        });
+        ScrollReveal().reveal(".form", { delay: 400, origin: "bottom" });
+        </script>
+        <script src="script.js"></script>
+</body>
+</html>
