@@ -6,9 +6,9 @@
 
  html,body{
     background-color: #111222;
-    font-size: 40px;
+    font-size: 33px;
     font-weight: 700;
-    font-family: 'Big Shoulders Display', cursive;
+    font-family: 'Big Shoulders Display' , Poppins ;
     min-height: 100vh;
     max-height: 100vh;
 }
@@ -31,9 +31,9 @@ h1,h2,h3,h4{
     color: #acafd4;
 }
 .msg3,.msg4{
-    color: black;
+    color:#333669;
     position: relative;
-    left: 180px;
+    left: 70px;
     margin-top: 20px;
     font-weight: 900 ;
     
