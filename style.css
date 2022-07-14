@@ -1,16 +1,16 @@
 *{
     box-sizing: border-box;
     max-width: 100%;
-    
+    box-sizing: border-box;
 }
 
- html,body{
+ html{
     background-color: #111222;
-    font-size: 33px;
-    font-weight: 700;
-    font-family: 'Big Shoulders Display' , Poppins ;
+      width: 100%; 
+     height: 100vh;
     min-height: 100vh;
     max-height: 100vh;
+    flex-flow: none;
 }
 .main-header{
     color: white;
@@ -29,6 +29,7 @@ li{
 }
 h1,h2,h3,h4{
     color: #acafd4;
+    font-family: 'Big Shoulders Display' , cursive ;
 }
 .msg3,.msg4{
     color:#333669;
@@ -43,8 +44,14 @@ h1,h2,h3,h4{
     font-weight: bolder;
    
 }
+.msg1,.msg2,.msg3,.msg4{
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 200;
+}
 .mgh{
-    margin-bottom: -280px;
+    margin-bottom:-120px;
+    margin-top: 0px;
    border-radius: 100px;
    width: 50%;
    opacity: 60%;
